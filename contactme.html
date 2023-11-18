@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Tsue Personal Website| A little About Me | Contact Me"</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="content">
+    <header>
+      <a id="logo_link" href="index.html"><img class="logo" src="images/logo.png" alt="Dry Oar Logo"></a>
+      <nav>
+        <a href="index.html">Home</a> 
+        <a href="#">Page 2</a> 
+        <a href="site-plan-rafting.html">Site Plan</a> 
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+        <p>Feel free to check out my social media platforms!
+         Check out my posts and content. For a quick and easy look into my life,
+         I post regularly on Instagram and Facebook. 
+         My LinkedIn is where I post all of my certifications and credentials
+         as well as book photography appointments if photoshoots or photo edits are 
+         something that you are interested in. If you are looking for a personal look into my life,
+         do not hesitate to check out my YouTube channel! This is where I post weekly uploads of content
+         and allows you to see a more authentic side of me and my private life. 
+ 
+         Thank you for your time and consideration, I look forward to exceeding your expectations!
+         
+         Respectfully, Tsue 
+       </p>
+       <p>Images for the Page 3</p>
+         <img src="./pictures/camera-man-5110037_1280.jpg" alt="an image of a man on a bridge with a purple sky background">
+         <img src="./pictures/color-1521491_1280.jpg" alt="an image of multi-colored umbrellas">
+ 
+<!-- this is a form to allow users to contact us (they input their info here) [it also includes code for a button] -->
+<div id="feedback"></div>
+         <form action="#" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email"/> 
+                <input value="by default this element is filled with this text" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li> 
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+    </main>
+   
+      
+    <footer>
+        <p>Personal Site © 2023 - Tayler Hickman</p>
+        <p><a href="./site-plan.html">Site Plan</a></p>
+        <p><a href="contactme.html">Contact Me</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="./pictures/facebook-icon.webp" alt="fb icon">
+            </a>
+            <a href="https://www.linkedin.com/in/tayler-hickman-441817291/" target="_blank">
+                <img src="./pictures/linked-in_logo.png" alt="linkedin icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="./pictures/instagram_icon.webp" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+
+             
+  </div>
+  <script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+</body>
+
+</html>

@@ -1,10 +1,18 @@
 .purplesunrise{
     display: inline-grid;
+    grid-template-columns: 1fr;
     align-content: space-between;
     align-items: center;
     justify-items: center; 
     justify-content: space-evenly;
+    height: 1000px;
+    width: 75%;
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
 }
+
 
 footer{
     background-color: whitesmoke;
@@ -32,4 +40,5 @@ footer p a:hover{
 
 footer .social img{
     padding-top: 15px;
+    width: 40px;
 }       
