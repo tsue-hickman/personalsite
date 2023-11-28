@@ -37,16 +37,12 @@
 }
 .paragraph-home{
     position: relative;
-    right: 100px;
-    left: 1000px
-    transform: translate(-50%, -50%);
-
-    
- 
+    padding: 0 15%;
+   
 }
 
-.
-/* /* THIS IS IMPORTED FROM W3SCHOOLS! */ */
+
+/* THIS IS IMPORTED FROM W3SCHOOLS! */
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -80,7 +76,7 @@
     padding: 0px 10px;
   }
 
-  /* /* ^^ THIS IS IMPORTED FROM W3SCHOOLS!^^  */ */
+ /* ^^ THIS IS IMPORTED FROM W3SCHOOLS!^^  */
 
 .coloredrocks{
     height: 680px;
