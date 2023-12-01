@@ -160,3 +160,34 @@ footer .social img{
     display: grid;
     grid-template-columns: repeat(4 1fr);
 }
+.alittleab{
+    font-size: 500%;
+    padding-left: 39%;
+    padding-right: 30%;
+}
+.mainbody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.palmtrees{
+    padding-left: 0;
+    padding-right: 85%;
+}
+
+.techexper{
+    padding: 8% 25%;
+    text-align: center;
+    font-size: 170%
+}
+
+.towers{
+    padding-left: 0;
+    padding-right: 25%;
+}
+
+.experience{
+    padding: 15% 25%;
+    text-align: center;
+    font-size: 180%;
+}
