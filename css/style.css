@@ -224,10 +224,11 @@ a:visited{
 }
 
 .bridge{
-    width: 800px;
-    height: 600px;
+    width: 440px;
+    height: 500px;
+    padding-left: 2%;
 }
 .umbrellas{
-    width: 800px;
-    height: 600px;
+    width: 440px;
+    height: 500px;
 }
