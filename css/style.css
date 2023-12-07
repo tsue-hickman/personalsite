@@ -130,6 +130,10 @@ footer .social img{
   font-size: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+a:visited{
+    color: white;
 }
 
 .mylogoaboutpg{
