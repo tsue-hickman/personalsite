@@ -172,7 +172,7 @@ a:visited{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-#feedback{
+.form{
     display: grid;
     justify-content: center;
 }
