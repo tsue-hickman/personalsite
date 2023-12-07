@@ -1,7 +1,7 @@
-#body{
-    margin-left: 100px;
-    margin-right: 100px;
+body{
+    margin: 0;
 }
+
 a:visited{
     color: white;
 }
@@ -115,6 +115,7 @@ footer a:hover{
 
 footer p{
     font-size: 1.2em;
+    padding-left: 5%;
 }
 footer p a:hover{
     text-decoration: underline;
@@ -169,7 +170,11 @@ a:visited{
 /* body */
 .aboutmebodypg{
     display: grid;
-    grid-template-columns: repeat(4 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+#feedback{
+    display: grid;
+    justify-content: center;
 }
 .alittleab{
     font-size: 3em;
