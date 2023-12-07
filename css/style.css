@@ -172,9 +172,8 @@ a:visited{
     grid-template-columns: repeat(4 1fr);
 }
 .alittleab{
-    font-size: 500%;
-    padding-left: 39%;
-    padding-right: 30%;
+    font-size: 3em;
+    text-align: center;
 }
 .mainbody{
     display: grid;
@@ -184,6 +183,7 @@ a:visited{
 .palmtrees{
     padding-left: 0;
     padding-right: 85%;
+    max-width: 1000px;
 }
 
 .techexper{
@@ -195,6 +195,7 @@ a:visited{
 .towers{
     padding-left: 0;
     padding-right: 25%;
+    max-width: 1000px;
 }
 
 .experience{
