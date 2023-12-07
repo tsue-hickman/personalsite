@@ -14,6 +14,7 @@ a:visited{
   font-size: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
 }
 
 .mylogohomepg{
@@ -37,10 +38,13 @@ a:visited{
     width: 80%;
     margin: 0 auto;
 
+
 }
 .paragraph-home{
     position: relative;
     padding: 0 15%;
+    font-size: 1.5em;
+
    
 }
 
